@@ -94,7 +94,8 @@ def main():
             only_directories = [f for f in listdir(sorting_directory) if isdir(join(sorting_directory, f))]
 
             # regex to directories containing SddEdd
-            # example (South.Park.S23E01.Mexican.Joker.UNCENSORED.1080p.WEB-DL.AAC2.0.H264-LAZY[rarbg])
+            # example (South.Park.S23E01.Mexican.Joker.UNCENSORED.1080p)
+            # TODO: add functionality to organize by seasons in addition to the show name
             r = re.compile('^.*\.S\d\dE\d\d.*')
 
             directory_list = list(filter(r.match, only_directories))

@@ -11,9 +11,15 @@ Python program that organizes your Anime or TV Shows into organized folders.
 
 Will organize .mkv files that are in the following format: [Group] Show Name - Episode # [Resolution].mkv
 
-Example: [HorribleSubs] Hunter X Hunter - 126 [1080p]
+Anime Example:
+- [Fansub] Hunter X Hunter - 126 [1080p]
 
 The file above would be moved into a new or pre-existing folder named Hunter X Hunter, along with the rest of the Hunter X Hunter episodes in that directory.
+
+TV Show Example:
+- Breaking.Bad.S05E02.1080p
+
+The file above would be moved into a new or pre-existing folder named Breaking Bad, along with the rest of the Breaking Bad episodes in that directory.
 
 ## Getting Started <a name = "getting_started"></a>
 
