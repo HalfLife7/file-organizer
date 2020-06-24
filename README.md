@@ -1,4 +1,4 @@
-# file-organizer
+# TV Show Organizer
 
 ## Table of Contents
 + [About](#about)
@@ -34,8 +34,8 @@ To create an .exe file, use pyinstaller. (Instructions: https://datatofish.com/e
 
 1. Open Command Prompt
 2. Enter the following into the command prompt: pip install pyinstaller
-3. Change directory to where the Python script is stored. (Ex: cd C:\Users\HalfLife7\Desktop\file-organizer)
-4. Enter the following into the command prompt: pyinstaller --onefile file-organizer.py
+3. Change directory to where the Python script is stored. (Ex: cd C:\Users\HalfLife7\Desktop\tv-show-organizer)
+4. Enter the following into the command prompt: pyinstaller --onefile tv-show-organizer.py
 5. Run the .exe file located in the newly created dist folder (if you get an error message, you may need to install Visual C++ Redistributable).
 
 Alternatively, you can download the .zip folder and launch the .exe from there. (if it does not work, try creating the .exe using the instructions above)
